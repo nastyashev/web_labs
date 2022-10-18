@@ -6,5 +6,5 @@
 <h3>lab2</h3>
 <ul>
   <li>Flexbox CSS: </li>
-  <li>Grid CSS: </li>
+  <li>Grid CSS: https://nastyashev.github.io/web_labs/lab2/grid.html</li>
 </ul>
