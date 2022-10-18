@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 240, 232);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.5fr 5fr 1fr;
+}
+
+.section_1 {
+    background-color: rgb(223, 240, 232);
+    padding: 20px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.section_2 {
+    background-color: rgb(183, 219, 202);
+    padding: 20px;
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sec_2_text {
+    grid-column: 1 / span 3;
+    margin: auto auto auto auto;
+}
+
+.section_3 {
+    background-color: rgb(126, 156, 175);
+    padding: 15px;
+    border-radius: 15px;
+    grid-row: 1;
+    text-align: right;
+}
+
+.section_4 {
+    background-color: rgb(223, 240, 232);
+    padding: 20px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.section_5 {
+    background-color: rgb(249, 252, 250);
+    padding: 20px;
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-auto-rows: min-content;
+}
+
+.sec_5_text {
+    margin-top: 30px;
+    grid-row: 2;
+}
+
+.section_6 {
+    background-color: rgb(223, 240, 232);
+    padding: 20px;
+    border-top: 2px solid black;
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sec_6_text {
+    grid-column: 2 / span 3;
+    margin: auto 0px auto auto;
+    text-align: right;
+}
+
+.sec_6_text li {
+    display: inline-block;
+    padding: 30px 50px 30px 50px;
+}
+
+.mark_x {
+    background-color: rgb(222, 231, 237);
+    border: 2px solid rgb(126, 156, 175);
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    grid-column: 4;
+    margin: auto auto auto auto;
+}
+
+.mark_y {
+    background-color: rgb(248, 250, 252);
+    border: 2px solid rgb(180, 199, 212);
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    grid-column: 1;
+    margin: auto auto auto auto;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(66, 93, 134);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(66, 93, 134);
+    text-decoration: underline;
+}
+
+#header_text {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#standart_text {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mark_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
