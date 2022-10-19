@@ -12,7 +12,7 @@ body {
 }
 
 .right {
-    flex: 4;
+    flex: 80%;
 }
 
 .middle {
@@ -23,54 +23,44 @@ body {
     background-color: rgb(223, 240, 232);
     padding: 20px;
     text-align: center;
-    flex: 1;
+    flex: 20%;
 }
 
 .section_2 {
     background-color: rgb(183, 219, 202);
     padding: 20px;
     display: flex;
-    /*grid-column: 2 / span 2;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);*/
 }
 
 .sec_2_text {
     flex: 3;
     margin: auto;
+    text-align: center;
 }
 
 .section_3 {
     background-color: rgb(126, 156, 175);
     padding: 15px;
     border-radius: 15px;
-    /*grid-row: 1;*/
     text-align: right;
 }
 
 .section_4 {
     background-color: rgb(223, 240, 232);
     padding: 20px;
-    flex: 1;
+    flex: 25%;
     order: 2;
-    /*grid-column: 3;
-    grid-row: 2;*/
 }
 
 .section_5 {
     background-color: rgb(249, 252, 250);
     padding: 20px;
-    flex: 3;
+    flex: 75%;
     order: 1;
-    /*grid-column: 2;
-    grid-row: 2;
-    display: grid;
-    grid-auto-rows: min-content;*/
 }
 
 .sec_5_text {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .section_6 {
@@ -78,10 +68,6 @@ body {
     padding: 20px;
     border-top: 2px solid black;
     display: flex;
-    /*grid-column: 1 / span 3;
-    grid-row: 3;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);*/
 }
 
 .sec_6_text {
@@ -102,6 +88,7 @@ body {
     padding: 0px 20px 0px 20px;
     margin: auto;
     flex: 1;
+    max-width: fit-content;
 }
 
 .mark_y {
